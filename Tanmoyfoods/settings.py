@@ -16,9 +16,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'pxde*-63c@p#7!i*4a8r^f6awqq9jw^bxgt!2f3ugbm8iw2)5e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['tanmoy-food.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
